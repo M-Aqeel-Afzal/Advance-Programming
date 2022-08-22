@@ -1,0 +1,40 @@
+
+import java.util.ArrayList;
+
+public class KametiMember{
+	private RegisteredMember R_Member;
+	private String KametiName;
+	private String Kameti_ID;
+	private String Member_ID;
+	private ArrayList<Payment> payments;
+	public KametiMember(String kn,String kid,String mid,RegisteredMember mem) {
+
+		KametiName=kn;
+		Kameti_ID=kid;
+		Member_ID=mid;
+		R_Member= mem;
+	}
+	public String getKametiName() {
+		return KametiName;
+	}
+	public void setKametiName(String kametiName) {
+		KametiName = kametiName;
+	}
+	public String getKameti_ID() {
+		return Kameti_ID;
+	}
+	public void setKameti_ID(String kameti_ID) {
+		Kameti_ID = kameti_ID;
+	}
+	public String getMember_ID() {
+		return Member_ID;
+	}
+	public void setMember_ID(String member_ID) {
+		Member_ID = member_ID;
+	}
+	
+	public KametiMember(String Name,int CNIC) {
+		this.KametiName = kametiName;
+		this.Owner_cinc=owner_cnic;
+	}
+}

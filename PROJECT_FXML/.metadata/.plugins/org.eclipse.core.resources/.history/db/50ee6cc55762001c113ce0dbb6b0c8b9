@@ -1,0 +1,9 @@
+package ExceptionsHandling;
+
+public class MemberAllreadyExist extends Exception{
+private static final long serialVersionUID = 1L;
+
+public MemberAllreadyExist(String message) {
+        super(message);
+    }
+}

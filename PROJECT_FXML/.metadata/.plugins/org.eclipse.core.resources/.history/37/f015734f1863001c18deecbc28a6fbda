@@ -1,0 +1,238 @@
+package BussinessLogic;
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import DatabaseLayer.Filehandling;
+import ExceptionsHandling.AccountNotExist;
+import ExceptionsHandling.MemberAllreadyExist;
+import ExceptionsHandling.PartyCapecityIsFull;
+import ExceptionsHandling.PartyNotFound;
+import ExceptionsHandling.PrimaryKeyViolationException;
+@Entity
+@Table(name="KametiMember")
+public class KametiMember implements Serializable {
+	/**
+	 *
+	 */
+	private static final long serialVersionUID = 1L;
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private int Serial_ID;
+	private int Member_CNIC;
+	@OneToOne(cascade=CascadeType.ALL)
+	private Accounts R_Member;
+	private String KametiName;
+	private int Kameti_ID;
+	private String Agreement = "Aqeel abid sahil umer";
+
+	@OneToMany(cascade=CascadeType.ALL)
+	private List<Transections> payments;
+	public KametiMember()
+	{
+		KametiName="";
+		Kameti_ID=0;
+		Member_CNIC=0;
+		R_Member= null;
+		payments=new ArrayList<Transections>();
+	}
+	public String getContract() {
+		return Agreement;
+	}
+	public void setContract(String contract) {
+		Agreement = contract;
+	}
+	public Accounts getR_Member() {
+		return R_Member;
+	}
+	public void setR_Member(Accounts r_Member) {
+		R_Member = r_Member;
+	}
+	public List<Transections> getPayments() {
+		return payments;
+	}
+	public void setPayments(Transections trans) {
+		payments.add(trans);
+	}
+	public KametiMember(String kn,int kid,int cnic,Accounts mem) {
+
+		KametiName=kn;
+		Kameti_ID=kid;
+		Member_CNIC=cnic;
+		R_Member= mem;
+		Filehandling.KametiMember_info(this);
+	}
+	public String getKametiName() {
+		return KametiName;
+	}
+	public void setKametiName(String kametiName) {
+		KametiName = kametiName;
+	}
+	public int getKameti_ID() {
+		return Kameti_ID;
+	}
+	public void setKameti_ID(int kameti_ID) {
+		Kameti_ID = kameti_ID;
+	}
+	public int getMember_cnic() {
+		return Member_CNIC;
+	}
+	public void setMember_cnic(int member_ID) {
+		Member_CNIC = member_ID;
+	}
+	static public KametiMember getAccount(HibernateDatabase hibr,int cnic)
+	{
+
+		CriteriaBuilder builder = hibr.getSession().getCriteriaBuilder();
+		CriteriaQuery<KametiMember> criteria = builder.createQuery(KametiMember.class);
+		criteria.from(KametiMember.class);
+		List<KametiMember> entityList = hibr.getSession().createQuery(criteria).getResultList();
+
+		for (KametiMember e : entityList) {
+			if(e.getMember_cnic()==cnic)
+			{
+
+				return e;
+			}
+		}
+		return null;
+	}
+	static public void Deposite(HibernateDatabase hibr, double amount,int cnic,Transaction trans)
+	{
+		CriteriaBuilder builder = hibr.getSession().getCriteriaBuilder();
+		CriteriaQuery<KametiMember> criteria = builder.createQuery(KametiMember.class);
+		criteria.from(KametiMember.class);
+		List<KametiMember> entityList = hibr.getSession().createQuery(criteria).getResultList();
+
+		for (KametiMember e : entityList) {
+			if(e.Member_CNIC==cnic)
+			{
+				KametiParty party=null;
+				try {
+					party = KametiParty.getParty(hibr.getSession(),e.getKameti_ID());
+				} catch (PartyNotFound e1) {
+					// TODO Auto-generated catch block
+					System.err.print(e1);
+				}
+				String date=java.time.LocalDate.now().toString();
+				Transections tran=new Transections(date,amount,"EasyPeisa","Deposite");
+				e.setPayments(tran);
+				hibr.getSession().update(e);
+				party.addTotal_Balance(amount);
+				hibr.getSession().update(party);
+				trans.commit();
+			}
+		}
+	}
+	static public double Withdraw(HibernateDatabase hibr,int cnic,Transaction trans)
+	{
+		CriteriaBuilder builder =hibr.getSession().getCriteriaBuilder();
+		CriteriaQuery<KametiMember> criteria = builder.createQuery(KametiMember.class);
+		criteria.from(KametiMember.class);
+		List<KametiMember> entityList = hibr.getSession().createQuery(criteria).getResultList();
+		double amount=0;
+		for (KametiMember e : entityList) {
+			if(e.Member_CNIC==cnic)
+			{
+				KametiParty party=null;
+				try {
+					party = KametiParty.getParty(hibr.getSession(),e.getKameti_ID());
+				} catch (PartyNotFound e1) {
+					// TODO Auto-generated catch block
+					System.err.print(e1);
+				}
+				String date=java.time.LocalDate.now().toString();
+				amount=party.withdrawTotal_Balance();
+				Transections tran=new Transections(date,amount ,"EasyPeisa","Withdraw");
+				e.setPayments(tran);
+				hibr.getSession().update(e);
+				hibr.getSession().update(party);
+				trans.commit();
+			}
+		}
+		return amount;
+	}
+	public static void JoinParty(HibernateDatabase hibr,KametiParty p,int pid, int cnic, Accounts acc,Transaction trans)
+	{
+		KametiMember m=new KametiMember(p.getKametiName(),p.getKameti_ID(),cnic,acc);
+		try {
+			acc = Accounts.getAccount(hibr.getSession(),cnic);
+			if(acc==null)
+				hibr.getSession().save(m);
+		} catch (AccountNotExist e1) {
+			// TODO Auto-generated catch block
+			System.err.print(e1);
+		}
+		try {
+			p.setMembers(m,hibr);
+		} catch (PartyCapecityIsFull e) {
+			// TODO Auto-generated catch block
+			System.err.print(e);
+		} catch (MemberAllreadyExist e) {
+			// TODO Auto-generated catch block
+			System.err.print(e);
+		}
+		hibr.getSession().update(p);
+		hibr.getTransaction().commit();
+		System.out.println("Done");
+	}
+	static void ShowPartiesofMember(HibernateDatabase hibr,int cnic)
+	{
+		ArrayList<String> list1=new ArrayList<>();
+		CriteriaBuilder builder = hibr.getSession().getCriteriaBuilder();
+
+		// Create CriteriaQuery
+		CriteriaQuery<KametiMember> criteria = builder.createQuery(KametiMember.class);
+
+		// Specify criteria root
+		criteria.from(KametiMember.class);
+
+		// Execute query
+		List<KametiMember> entityList = hibr.getSession().createQuery(criteria).getResultList();
+
+		for (KametiMember e : entityList) {
+			if(e.getMember_cnic()==cnic)
+			{
+				int kid=e.getKameti_ID();
+				// Create CriteriaBuilder
+				CriteriaBuilder builder1 = hibr.getSession().getCriteriaBuilder();
+
+				// Create CriteriaQuery
+				CriteriaQuery<KametiParty> criteria1= builder1.createQuery(KametiParty.class);
+
+				// Specify criteria root
+				criteria1.from(KametiParty.class);
+
+				// Execute query
+				List<KametiParty> entityList1 = hibr.getSession().createQuery(criteria1).getResultList();
+				for (KametiParty k : entityList1) {
+
+					if(k.getKameti_ID()==kid)
+					{
+
+						list1.add(k.getKameti_ID()+" "+k.getKametiName()+" "+k.getDates().getCreation_Date()+" "+k.getDates().getDeadline());
+					}
+				}
+
+			}
+
+		}
+	}
+}

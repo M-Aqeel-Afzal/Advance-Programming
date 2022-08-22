@@ -1,0 +1,5 @@
+package ExceptionsHandling;
+
+public class MemberAllreadyExist {
+
+}
