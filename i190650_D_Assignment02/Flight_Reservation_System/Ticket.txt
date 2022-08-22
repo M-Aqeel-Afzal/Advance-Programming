@@ -1,0 +1,5 @@
+SeatNo,Flight_ID,Status,ReservedDateTime,Passport_No
+17,G4529,Reserved,24/11/2021: 10:30 pm,pak12345674
+400,HA48,Reserved,04/12/2021: 1:30 am,pak7757634
+10,G4154,Reserved,28/11/2021: 8:30 am,pak488345
+200,HA48,Reserved,04/12/2021: 1:30 am,pak8658439

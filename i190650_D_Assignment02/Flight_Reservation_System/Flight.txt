@@ -1,0 +1,12 @@
+Flight_ID,Airline,FlightType,DeparturePoint,ArivalPoint,TotalSeat,AvailableSeats,ReservedSeats
+UA560,Airbus,economy,Jinnah_International_Airport_Karachi,Los-Angeles-International,180,180,0
+B6624,Boeing,premium_economy,Islamabad_International_Airport,Oakland-International,200,200,0
+DL5841,Embraer,economy,Allama_Iqbal_International_Airport_Lahore,Oakland-International,180,180,0
+DL1149,Delta,economy,Jinnah_International_Airport_Karachi,San-Francisco-International,250,250,0
+G4529,Allegiant,premium_economy,Islamabad_International_Airport,San-Francisco-International,230,229,1
+G4154,Allegiant,business,Allama_Iqbal_International_Airport_Lahore,Los-Angeles-International,256,255,1
+G4155,Allegiant,business,Allama_Iqbal_International_Airport_Lahore,Los-Angeles-International,300,300,0
+HA48,Bombardier,first_class,Jinnah_International_Airport_Karachi,San-Francisco-International,420,418,2
+AA1522,American,first_class,Allama_Iqbal_International_Airport_Lahore,Washington-Dulles-International,220,220,0
+AA3472,American,economy,Allama_Iqbal_International_Airport_Lahore,Oakland-International,280,280,0
+WN380,McDonnell-Douglas,premium_economy,Islamabad_International_Airport,Washington-Dulles-International,190,190,0

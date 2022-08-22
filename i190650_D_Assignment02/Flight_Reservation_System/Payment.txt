@@ -1,0 +1,12 @@
+Flight_ID,Fare_Amount,PaymentMethod
+UA560,130000,Bank_visa_electron
+B6624,150000,UATP_Card
+DL5841,135000,visa_electron
+DL1149,122000,Union_pay
+G4529,160000,UATP_Card
+G4154,470000,visa_electron
+G4155,475000,UATP_Card
+HA48,684000,Union_pay
+AA1522,700000,visa_electron
+AA3472,125000,Union_pay
+WN380,150000,UATP_Card
