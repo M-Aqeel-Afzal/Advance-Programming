@@ -1,0 +1,9 @@
+package ExceptionsHandling;
+
+public class PartyCapecityIsFull extends Exception{
+	private static final long serialVersionUID = 1L;
+
+	public PartyCapecityIsFull(String message) {
+        super(message);
+    }
+}

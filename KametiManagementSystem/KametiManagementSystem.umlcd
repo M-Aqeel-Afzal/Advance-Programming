@@ -1,0 +1,2711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_x-XUIGM0EeyVIZfnfmzq8Q">
+  <modelElement href="KametiManagementSystem.uml#_x50LUGM0EeyVIZfnfmzq8Q"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k7T4EGM1EeyVIZfnfmzq8Q" sourceAnchor="121.0,0.0" targetAnchor="0.0,70.0" target="_k7dCAGM1EeyVIZfnfmzq8Q" source="_k7dCAGM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z2t84GM0EeyVIZfnfmzq8Q"/>
+    <bendpoints xmi:id="_YXs3cGM-EeyVIZfnfmzq8Q" sourceY="-91" targetX="122" targetY="-162"/>
+    <bendpoints xmi:id="_YXs3cWM-EeyVIZfnfmzq8Q" sourceX="-264" sourceY="-95" targetX="-142" targetY="-166"/>
+    <bendpoints xmi:id="_YXs3cmM-EeyVIZfnfmzq8Q" sourceX="-254" sourceY="71" targetX="-132"/>
+    <stereotypes xmi:id="_k7XicmM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z21RoGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k7WUUGM1EeyVIZfnfmzq8Q" text="">
+      <visualProperties xmi:id="_lZqoAGM1EeyVIZfnfmzq8Q" position="212.0,-9.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_k7XicGM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z2t84WM0EeyVIZfnfmzq8Q"/>
+      <visualProperties xmi:id="_lZqA8GM1EeyVIZfnfmzq8Q" position="-21.0,-50.0"/>
+      <visibility xmi:id="_k7ZXoWM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k7ZXoGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k7XicWM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="single_instance" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zy2wkGM0EeyVIZfnfmzq8Q"/>
+      <visualProperties xmi:id="_lZqoAWM1EeyVIZfnfmzq8Q" position="-101.0,3.000000000000057"/>
+      <visibility xmi:id="_k7ZXo2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k7ZXomM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k7VGMGM1EeyVIZfnfmzq8Q" source="_k7dCAGM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z21RoWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k7YwkmM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z27YQGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k7YJgGM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k7YwkGM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z21RomM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k7Z-sWM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k7Z-sGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k7YwkWM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="ses" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zy3XomM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k7Z-s2M1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k7Z-smM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k7ca8GM1EeyVIZfnfmzq8Q" source="_k7dCAGM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z27YQWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k7ca8WM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z3D7IGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k7ca8mM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k7ca82M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z27YQmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k7ca9GM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k7ca9WM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k7ca9mM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="trans" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zy3-sWM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k7ca92M1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k7ca-GM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k734wGM1EeyVIZfnfmzq8Q" sourceAnchor="470.0,287.0" targetAnchor="168.0,0.0" target="_k5G4oGM1EeyVIZfnfmzq8Q" source="_k8EGAGM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z3D7IWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k75t82M1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z3IzoGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k75t8GM1EeyVIZfnfmzq8Q" text="">
+      <visualProperties xmi:id="_lZsdMGM1EeyVIZfnfmzq8Q" position="2.0,19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_k75t8WM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z3D7ImM0EeyVIZfnfmzq8Q"/>
+      <visualProperties xmi:id="_lZrPEGM1EeyVIZfnfmzq8Q" position="2.0,29.0"/>
+      <visibility xmi:id="_k7-mcWM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k7-mcGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k75t8mM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="R_Member" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zy_TcWM0EeyVIZfnfmzq8Q"/>
+      <visualProperties xmi:id="_lZsdMWM1EeyVIZfnfmzq8Q" position="-74.0,-103.0"/>
+      <visibility xmi:id="_k7-mc2M1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k7-mcmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k8CQ0GM1EeyVIZfnfmzq8Q" sourceAnchor="0.0,261.0" targetAnchor="638.0,138.0" target="_k8EGAGM1EeyVIZfnfmzq8Q" source="_k9BvUGM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z7a2sWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k8CQ0WM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z7g9UGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k8CQ0mM1EeyVIZfnfmzq8Q" text="">
+      <visualProperties xmi:id="_lZ21QGM1EeyVIZfnfmzq8Q" position="-51.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_k8CQ02M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z7a2smM0EeyVIZfnfmzq8Q"/>
+      <visualProperties xmi:id="_lZ1nIGM1EeyVIZfnfmzq8Q" position="-34.0,2.0"/>
+      <visibility xmi:id="_k8CQ1GM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k8CQ1WM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k8CQ1mM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="Members" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_z0xcIGM0EeyVIZfnfmzq8Q"/>
+      <visualProperties xmi:id="_lZ21QWM1EeyVIZfnfmzq8Q" position="56.0,1.9999999999998863"/>
+      <stereotypes xmi:id="_k8CQ12M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0xcIWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k8CQ2GM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_z0yqQGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k8CQ2WM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k8CQ2mM1EeyVIZfnfmzq8Q" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k8De8GM1EeyVIZfnfmzq8Q" sourceAnchor="293.0,0.0" targetAnchor="334.0,192.0" target="_k9qogGM1EeyVIZfnfmzq8Q" source="_k8EGAGM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z3IzoWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k8De8WM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z3NsIGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k8De8mM1EeyVIZfnfmzq8Q" text="">
+      <visualProperties xmi:id="_lZu5cGM1EeyVIZfnfmzq8Q" position="-39.0,-17.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_k8De82M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z3IzomM0EeyVIZfnfmzq8Q"/>
+      <visualProperties xmi:id="_lZtrUGM1EeyVIZfnfmzq8Q" position="-17.0,-81.0"/>
+      <visibility xmi:id="_k8De9GM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k8De9WM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k8De9mM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="payments" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzDk4GM0EeyVIZfnfmzq8Q"/>
+      <visualProperties xmi:id="_lZvggGM1EeyVIZfnfmzq8Q" position="2.0,35.0"/>
+      <visibility xmi:id="_k8De92M1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k8De-GM1EeyVIZfnfmzq8Q" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k8zF0GM1EeyVIZfnfmzq8Q" sourceAnchor="112.0,192.0" targetAnchor="198.0,0.0" target="_k9BvUGM1EeyVIZfnfmzq8Q" source="_k6-g4GM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z2M_gGM0EeyVIZfnfmzq8Q"/>
+    <nameVisual xmi:id="_k807AGM1EeyVIZfnfmzq8Q" text="">
+      <visualProperties xmi:id="_lZpZ4GM1EeyVIZfnfmzq8Q" position="-13.0,-1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_k807AWM1EeyVIZfnfmzq8Q" name="dates" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_z0w1EGM0EeyVIZfnfmzq8Q"/>
+      <visualProperties xmi:id="_lZm9oWM1EeyVIZfnfmzq8Q" position="2.0,27.0"/>
+      <visibility xmi:id="_k87BoWM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k87BoGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k807AmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z2M_gWM0EeyVIZfnfmzq8Q"/>
+      <visualProperties xmi:id="_lZpZ4WM1EeyVIZfnfmzq8Q" position="2.0,-72.0"/>
+      <visibility xmi:id="_k87osGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k87BomM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k807A2M1EeyVIZfnfmzq8Q" source="_k9BvUGM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z7Th8WM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k87otGM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z7a2sGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k87osWM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k87osmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z7Th8mM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k8_TEGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k8-sAGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k87os2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="s" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_z0vm8GM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k8_TEmM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k8_TEWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k9BIQGM1EeyVIZfnfmzq8Q" source="_k9BvUGM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z7NbUWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k9BIQWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z7Th8GM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k9BIQmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k9BIQ2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z7NbUmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k9BIRGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9BIRWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k9BIRmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="count" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_z0rVgGM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k9BIR2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k9BISGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k96gIGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z6XGwWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-DqEWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z6b_QGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-DDAGM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-DDAWM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z6XGwmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-Ll4GM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-K-0GM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-DqEGM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="list1" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzyks2M0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-Ll4mM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-Ll4WM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-RFcGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z3_vQWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-RFcWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z4HEAGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-RFcmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-RFc2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z3_vQmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-RFdGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-RFdWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-RFdmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="SignUpButton" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzfpwGM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-RFd2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-RFeGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-S6oGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z4HEAWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-S6oWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z4NxsGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-S6omM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-S6o2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z4HEAmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-S6pGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-S6pWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-S6pmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="LoginButton" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzgQ0mM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-S6p2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-S6qGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-UIwGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z4NxsWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-UIwWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z4SqMGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-UIwmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-UIw2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z4NxsmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-UIxGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-UIxWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-UIxmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="LogOut" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzhe8GM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-UIx2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-UIyGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-VW4GM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z4TRQGM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-VW4WM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z4Z-8GM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-VW4mM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-VW42M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z4TRQWM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-VW5GM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-VW5WM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-VW5mM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="minimize_button" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zziGAmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-VW52M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-VW6GM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-WlAGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z4Z-8WM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-WlAWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z4gsoGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-WlAmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-WlA2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z4Z-8mM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-WlBGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-WlBWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-WlBmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="maximize_button" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzitEmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-WlB2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-WlCGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-XzIGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z4gsoWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-XzIWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z4rEsGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-XzImM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-XzI2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z4gsomM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-XzJGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-XzJWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-XzJmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="OwnerProfileButton" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzj7MmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-XzJ2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-XzKGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-YaMGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z4rEsWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-YaMWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z4zAgGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-YaMmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-YaM2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z4rEsmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-YaNGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-YaNWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-YaNmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="OwnerMembersButton" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzkiQmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-YaN2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-YaOGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-ZoUGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z4zAgWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-ZoUWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z44gEGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-ZoUmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-ZoU2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z4zAgmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-ZoVGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-ZoVWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-ZoVmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="OwnerPartyDetailsButton" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzlJUmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-ZoV2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-ZoWGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-a2cGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z45HIGM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-a2cWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z4-msGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-a2cmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-a2c2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z45HIWM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-a2dGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-a2dWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-a2dmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="OwnerAddNewPartyButton" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzmXcGM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-a2d2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-a2eGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-bdgGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z4-msWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-bdgWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z5EtUGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-bdgmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-bdg2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z4-msmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-bdhGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-bdhWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-bdhmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="OwnerPaymentButton" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzm-gmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-bdh2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-bdiGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-cEkGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z5EtUWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-cEkWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z5LbAGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-cEkmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-cEk2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z5EtUmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-cElGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-cElWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-cElmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="OwnerCalendarButton" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zznlkmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-cEl2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-cEmGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-dSsGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z5LbAWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-dSsWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z5RhoGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-dSsmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-dSs2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z5LbAmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-dStGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-dStWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-dStmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="OwnerLogin" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzoMo2M0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-dSt2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-dSuGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-d5wGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z5SIsGM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-d5wWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z5XBMGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-d5wmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-d5w2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z5SIsWM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-d5xGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-d5xWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-d5xmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="OwnerTextFieldCNIC" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzpawmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-d5x2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-d5yGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-fu8GM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z5XBMWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-fu8WM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z5du4GM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-fu8mM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-fu82M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z5XBMmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-fu9GM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-fu9WM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-fu9mM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="OwnerTextFieldName" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzqB0mM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-fu92M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-fu-GM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-gWAGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z5du4WM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-gWAWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z5j1gGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-gWAmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-gWA2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z5du4mM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-gWBGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-gWBWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-gWBmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="OwnerLabelCNIC" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzqo42M0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-gWB2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-gWCGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-hkIGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z5kckGM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-hkIWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z5rKQGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-hkImM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-hkI2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z5kckWM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-hkJGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-hkJWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-hkJmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="OwnerLabelName" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzrP8mM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-hkJ2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-hkKGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-iyQGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z5rKQWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-iyQWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z5x38GM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-iyQmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-iyQ2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z5rKQmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-iyRGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-iyRWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-iyRmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="OwnerLabelContactNo" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzseEmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-iyR2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-iySGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-kncGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z5x38WM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-kncWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z53-kGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-kncmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-knc2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z5x38mM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-kndGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-kndWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-kndmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="OwnerLabelGender" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzuTQGM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-knd2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-kneGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-l1kGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z54loGM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-l1kWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z5-sQGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-l1kmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-l1k2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z54loWM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-l1lGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-l1lWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-l1lmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="OwnerLabelAddress" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzu6UGM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-l1l2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-l1mGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-nDsGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z5-sQWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-nDsWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z6Ey4GM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-nDsmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-nDs2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z5-sQmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-nDtGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-nDtWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-nDtmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="OwnerLabelRegistration_ID" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzvhYmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-nDt2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-nDuGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-o44GM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z6Ey4WM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-o44WM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z6K5gGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-o44mM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-o442M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z6Ey4mM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-o45GM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-o45WM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-o45mM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="OwnerLabelRegestration_Date" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzwvgGM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-o452M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-o46GM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-qHAGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z6K5gWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-qHAWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z6RAIGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-qHAmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-qHA2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z6K5gmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-qHBGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-qHBWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-qHBmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="AnchorProfile" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzxWk2M0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-qHB2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-qHCGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-rVIGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z6RnMGM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-rVIWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z6XGwGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-rVImM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-rVI2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z6RnMWM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-rVJGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-rVJWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-rVJmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="AnchorMember" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zzx9o2M0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-rVJ2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-rVKGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-sjQGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z6b_QWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-sjQWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z6he0GM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-sjQmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-sjQ2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z6b_QmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-sjRGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-sjRWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-sjRmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="combobox1" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_zz7HkWM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-sjR2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-sjSGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-txYGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z6he0WM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-txYWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z6mXUGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-txYmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-txY2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z6he0mM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-txZGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-txZWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-txZmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="PartyNames" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_z0AnIWM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-txZ2M1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-txaGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-u_gGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z6mXUWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-u_gWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z6qBsGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-u_gmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-u_g2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z6mXUmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-u_hGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-u_hWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-u_hmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="Members_Info_Table" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_z0HU0GM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-u_h2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-u_iGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-wNoGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z6qBsWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-wNoWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z6uTIGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-wNomM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-wNo2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z6qBsmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-wNpGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-wNpWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-wNpmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="Member_Name_Col" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_z0OpkGM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-wNp2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-wNqGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-yC0GM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z6uTIWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-yC0WM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z6ykkGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-yC0mM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-yC02M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z6uTImM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-yC1GM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-yC1WM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-yC1mM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="Member_CNIC_Col" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_z0V-U2M0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-yC12M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-yC2GM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-z4AGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z6ykkWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-z4AWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z64rMGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-z4AmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-z4A2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z6ykkmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-z4BGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-z4BWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-z4BmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="MemberList" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_z0ehMmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-z4B2M1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-z4CGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-1GIGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z64rMWM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-1GIWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z6_Y4GM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-1GImM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-1GI2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z64rMmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-1GJGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-1GJWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-1GJmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="Candidate1" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_z0mdAWM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-1GJ2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-1GKGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-27UGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z6_Y4WM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-27UWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z7GGkGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-27UmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-27U2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z6_Y4mM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-27VGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-27VWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-27VmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="ShowMemberButton" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_z0nrIGM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-27V2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-27WGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_k-4JcGM1EeyVIZfnfmzq8Q" source="_k-4JeWM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_z7GtoGM0EeyVIZfnfmzq8Q"/>
+    <stereotypes xmi:id="_k-4JcWM1EeyVIZfnfmzq8Q" name="Reference">
+      <modelElement href="KametiManagementSystem.uml#_z7NbUGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_k-4JcmM1EeyVIZfnfmzq8Q" text=""/>
+    <sourceRole xmi:id="_k-4Jc2M1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="">
+      <modelElement href="KametiManagementSystem.uml#_z7GtoWM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-4JdGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-4JdWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_k-4JdmM1EeyVIZfnfmzq8Q" aggregationKind="NONE" name="MemberInformation" navigable="true">
+      <modelElement href="KametiManagementSystem.uml#_z0oSMmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-4Jd2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4JeGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_k-4JeWM1EeyVIZfnfmzq8Q" name="Controller" associationsOut="_k96gIGM1EeyVIZfnfmzq8Q _k-RFcGM1EeyVIZfnfmzq8Q _k-S6oGM1EeyVIZfnfmzq8Q _k-UIwGM1EeyVIZfnfmzq8Q _k-VW4GM1EeyVIZfnfmzq8Q _k-WlAGM1EeyVIZfnfmzq8Q _k-XzIGM1EeyVIZfnfmzq8Q _k-YaMGM1EeyVIZfnfmzq8Q _k-ZoUGM1EeyVIZfnfmzq8Q _k-a2cGM1EeyVIZfnfmzq8Q _k-bdgGM1EeyVIZfnfmzq8Q _k-cEkGM1EeyVIZfnfmzq8Q _k-dSsGM1EeyVIZfnfmzq8Q _k-d5wGM1EeyVIZfnfmzq8Q _k-fu8GM1EeyVIZfnfmzq8Q _k-gWAGM1EeyVIZfnfmzq8Q _k-hkIGM1EeyVIZfnfmzq8Q _k-iyQGM1EeyVIZfnfmzq8Q _k-kncGM1EeyVIZfnfmzq8Q _k-l1kGM1EeyVIZfnfmzq8Q _k-nDsGM1EeyVIZfnfmzq8Q _k-o44GM1EeyVIZfnfmzq8Q _k-qHAGM1EeyVIZfnfmzq8Q _k-rVIGM1EeyVIZfnfmzq8Q _k-sjQGM1EeyVIZfnfmzq8Q _k-txYGM1EeyVIZfnfmzq8Q _k-u_gGM1EeyVIZfnfmzq8Q _k-wNoGM1EeyVIZfnfmzq8Q _k-yC0GM1EeyVIZfnfmzq8Q _k-z4AGM1EeyVIZfnfmzq8Q _k-1GIGM1EeyVIZfnfmzq8Q _k-27UGM1EeyVIZfnfmzq8Q _k-4JcGM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_zgNhYGM0EeyVIZfnfmzq8Q"/>
+    <visualProperties xmi:id="_k-4JemM1EeyVIZfnfmzq8Q" position="2684.0,154.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_k-4Je2M1EeyVIZfnfmzq8Q" label="+"/>
+    <attributes xmi:id="_k-4JfGM1EeyVIZfnfmzq8Q" name="SignUpButton">
+      <modelElement href="KametiManagementSystem.uml#_zzfpwGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4JfWM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzfpwWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4JfmM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzgQ0GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4Jf2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4JgGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4JgWM1EeyVIZfnfmzq8Q" name="Button">
+        <modelElement href="KametiManagementSystem.uml#_zs7uwWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4JgmM1EeyVIZfnfmzq8Q" name="LoginButton">
+      <modelElement href="KametiManagementSystem.uml#_zzgQ0mM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4Jg2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzg34GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4JhGM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzg34WM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4JhWM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4JhmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4Jh2M1EeyVIZfnfmzq8Q" name="Button">
+        <modelElement href="KametiManagementSystem.uml#_zs7uwWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4JiGM1EeyVIZfnfmzq8Q" name="LogOut">
+      <modelElement href="KametiManagementSystem.uml#_zzhe8GM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4JiWM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzhe8WM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4JimM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zziGAGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4Ji2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4JjGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4JjWM1EeyVIZfnfmzq8Q" name="Button">
+        <modelElement href="KametiManagementSystem.uml#_zs7uwWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4JjmM1EeyVIZfnfmzq8Q" name="minimize_button">
+      <modelElement href="KametiManagementSystem.uml#_zziGAmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4Jj2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zziGA2M0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4JkGM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzitEGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4JkWM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4JkmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4Jk2M1EeyVIZfnfmzq8Q" name="Button">
+        <modelElement href="KametiManagementSystem.uml#_zs7uwWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4JlGM1EeyVIZfnfmzq8Q" name="maximize_button">
+      <modelElement href="KametiManagementSystem.uml#_zzitEmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4JlWM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzjUIGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4JlmM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzj7MGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4Jl2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4JmGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4JmWM1EeyVIZfnfmzq8Q" name="Button">
+        <modelElement href="KametiManagementSystem.uml#_zs7uwWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4JmmM1EeyVIZfnfmzq8Q" name="OwnerProfileButton">
+      <modelElement href="KametiManagementSystem.uml#_zzj7MmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4Jm2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzj7M2M0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4JnGM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzkiQGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4JnWM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4JnmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4Jn2M1EeyVIZfnfmzq8Q" name="Button">
+        <modelElement href="KametiManagementSystem.uml#_zs7uwWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4JoGM1EeyVIZfnfmzq8Q" name="OwnerMembersButton">
+      <modelElement href="KametiManagementSystem.uml#_zzkiQmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4JoWM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzkiQ2M0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4JomM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzlJUGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4Jo2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4JpGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4JpWM1EeyVIZfnfmzq8Q" name="Button">
+        <modelElement href="KametiManagementSystem.uml#_zs7uwWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4JpmM1EeyVIZfnfmzq8Q" name="OwnerPartyDetailsButton">
+      <modelElement href="KametiManagementSystem.uml#_zzlJUmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4Jp2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzlwYGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4JqGM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzlwYWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4JqWM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4JqmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4Jq2M1EeyVIZfnfmzq8Q" name="Button">
+        <modelElement href="KametiManagementSystem.uml#_zs7uwWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4JrGM1EeyVIZfnfmzq8Q" name="OwnerAddNewPartyButton">
+      <modelElement href="KametiManagementSystem.uml#_zzmXcGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4JrWM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzmXcWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4JrmM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzm-gGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4Jr2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4JsGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4JsWM1EeyVIZfnfmzq8Q" name="Button">
+        <modelElement href="KametiManagementSystem.uml#_zs7uwWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4JsmM1EeyVIZfnfmzq8Q" name="OwnerPaymentButton">
+      <modelElement href="KametiManagementSystem.uml#_zzm-gmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4Js2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzm-g2M0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4JtGM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zznlkGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4JtWM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4JtmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4Jt2M1EeyVIZfnfmzq8Q" name="Button">
+        <modelElement href="KametiManagementSystem.uml#_zs7uwWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4JuGM1EeyVIZfnfmzq8Q" name="OwnerCalendarButton">
+      <modelElement href="KametiManagementSystem.uml#_zznlkmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4JuWM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzoMoGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4JumM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzoMoWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4Ju2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4JvGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4JvWM1EeyVIZfnfmzq8Q" name="Button">
+        <modelElement href="KametiManagementSystem.uml#_zs7uwWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4JvmM1EeyVIZfnfmzq8Q" name="OwnerLogin">
+      <modelElement href="KametiManagementSystem.uml#_zzoMo2M0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4Jv2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzozsGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4JwGM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzpawGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4JwWM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4JwmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4Jw2M1EeyVIZfnfmzq8Q" name="Button">
+        <modelElement href="KametiManagementSystem.uml#_zs7uwWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4JxGM1EeyVIZfnfmzq8Q" name="OwnerTextFieldCNIC">
+      <modelElement href="KametiManagementSystem.uml#_zzpawmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4JxWM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzpaw2M0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4JxmM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzqB0GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4Jx2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4JyGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4JyWM1EeyVIZfnfmzq8Q" name="TextField">
+        <modelElement href="KametiManagementSystem.uml#_zvescWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4JymM1EeyVIZfnfmzq8Q" name="OwnerTextFieldName">
+      <modelElement href="KametiManagementSystem.uml#_zzqB0mM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4Jy2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzqo4GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4JzGM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzqo4WM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4JzWM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4JzmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4Jz2M1EeyVIZfnfmzq8Q" name="TextField">
+        <modelElement href="KametiManagementSystem.uml#_zvescWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4J0GM1EeyVIZfnfmzq8Q" defaultValue="new Label()" name="OwnerLabelCNIC">
+      <modelElement href="KametiManagementSystem.uml#_zzqo42M0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4J0WM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzqo5WM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4J0mM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzrP8GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4J02M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4J1GM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4J1WM1EeyVIZfnfmzq8Q" name="Label">
+        <modelElement href="KametiManagementSystem.uml#_ztAnQWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4J1mM1EeyVIZfnfmzq8Q" defaultValue="new Label()" name="OwnerLabelName">
+      <modelElement href="KametiManagementSystem.uml#_zzrP8mM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4J12M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzr3AWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4J2GM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzseEGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4J2WM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4J2mM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4J22M1EeyVIZfnfmzq8Q" name="Label">
+        <modelElement href="KametiManagementSystem.uml#_ztAnQWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4J3GM1EeyVIZfnfmzq8Q" defaultValue="new Label()" name="OwnerLabelContactNo">
+      <modelElement href="KametiManagementSystem.uml#_zzseEmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4J3WM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zztsMGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4J3mM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zztsMWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4J32M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4J4GM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4J4WM1EeyVIZfnfmzq8Q" name="Label">
+        <modelElement href="KametiManagementSystem.uml#_ztAnQWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4J4mM1EeyVIZfnfmzq8Q" defaultValue="new Label()" name="OwnerLabelGender">
+      <modelElement href="KametiManagementSystem.uml#_zzuTQGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4J42M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzuTQmM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4J5GM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzuTQ2M0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4J5WM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4J5mM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4J52M1EeyVIZfnfmzq8Q" name="Label">
+        <modelElement href="KametiManagementSystem.uml#_ztAnQWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4J6GM1EeyVIZfnfmzq8Q" defaultValue="new Label()" name="OwnerLabelAddress">
+      <modelElement href="KametiManagementSystem.uml#_zzu6UGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4J6WM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzu6UmM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4J6mM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzvhYGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4J62M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4J7GM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4J7WM1EeyVIZfnfmzq8Q" name="Label">
+        <modelElement href="KametiManagementSystem.uml#_ztAnQWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4J7mM1EeyVIZfnfmzq8Q" defaultValue="new Label()" name="OwnerLabelRegistration_ID">
+      <modelElement href="KametiManagementSystem.uml#_zzvhYmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4J72M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzvhZGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4J8GM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzwIcGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4J8WM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4J8mM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4J82M1EeyVIZfnfmzq8Q" name="Label">
+        <modelElement href="KametiManagementSystem.uml#_ztAnQWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4J9GM1EeyVIZfnfmzq8Q" defaultValue="new Label()" name="OwnerLabelRegestration_Date">
+      <modelElement href="KametiManagementSystem.uml#_zzwvgGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4J9WM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzxWkGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4J9mM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzxWkWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4J92M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4J-GM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4J-WM1EeyVIZfnfmzq8Q" name="Label">
+        <modelElement href="KametiManagementSystem.uml#_ztAnQWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4J-mM1EeyVIZfnfmzq8Q" name="AnchorProfile">
+      <modelElement href="KametiManagementSystem.uml#_zzxWk2M0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4J-2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzx9oGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4J_GM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzx9oWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4J_WM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4J_mM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4J_2M1EeyVIZfnfmzq8Q" name="AnchorPane">
+        <modelElement href="KametiManagementSystem.uml#_zvmBMWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4KAGM1EeyVIZfnfmzq8Q" name="AnchorMember">
+      <modelElement href="KametiManagementSystem.uml#_zzx9o2M0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KAWM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzyksGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KAmM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzyksWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KA2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4KBGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4KBWM1EeyVIZfnfmzq8Q" name="AnchorPane">
+        <modelElement href="KametiManagementSystem.uml#_zvmBMWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4KBmM1EeyVIZfnfmzq8Q" defaultValue="new ArrayList&lt;String>()" name="list1">
+      <modelElement href="KametiManagementSystem.uml#_zzyks2M0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KB2M1EeyVIZfnfmzq8Q" name="Generics">
+        <modelElement href="KametiManagementSystem.uml#_zz5SYGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KCGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zz55cWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KCWM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-4KCmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4KC2M1EeyVIZfnfmzq8Q" name="ArrayList">
+        <modelElement href="KametiManagementSystem.uml#_zqgs4GM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4KDGM1EeyVIZfnfmzq8Q" defaultValue="&quot;123&quot;" name="CNIC" staticAttribute="true">
+      <modelElement href="KametiManagementSystem.uml#_zz55cmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KDWM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zz6ggWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KDmM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-4KD2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4KEGM1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4KEWM1EeyVIZfnfmzq8Q" defaultValue="&quot;&quot;" name="Kameti_ID" staticAttribute="true">
+      <modelElement href="KametiManagementSystem.uml#_zz6ggmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KEmM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zz7HkGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KE2M1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-4KFGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4KFWM1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4KFmM1EeyVIZfnfmzq8Q" defaultValue="new ComboBox&lt;>()" name="combobox1">
+      <modelElement href="KametiManagementSystem.uml#_zz7HkWM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KF2M1EeyVIZfnfmzq8Q" name="Generics">
+        <modelElement href="KametiManagementSystem.uml#_zz_ZAGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KGGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0AAEGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KGWM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_z0AAEWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KGmM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4KG2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4KHGM1EeyVIZfnfmzq8Q" name="ComboBox">
+        <modelElement href="KametiManagementSystem.uml#_zvAyYWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4KHWM1EeyVIZfnfmzq8Q" name="PartyNames">
+      <modelElement href="KametiManagementSystem.uml#_z0AnIWM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KHmM1EeyVIZfnfmzq8Q" name="Generics">
+        <modelElement href="KametiManagementSystem.uml#_z0GGsGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KH2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0GtwGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KIGM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_z0GtwWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KIWM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-4KImM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4KI2M1EeyVIZfnfmzq8Q" name="ObservableList">
+        <modelElement href="KametiManagementSystem.uml#_zufN8GM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4KJGM1EeyVIZfnfmzq8Q" defaultValue="new TableView&lt;KametiParty>()" name="Members_Info_Table">
+      <modelElement href="KametiManagementSystem.uml#_z0HU0GM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KJWM1EeyVIZfnfmzq8Q" name="Generics">
+        <modelElement href="KametiManagementSystem.uml#_z0NbcGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KJmM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0OCgGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KJ2M1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_z0OCgWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KKGM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4KKWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4KKmM1EeyVIZfnfmzq8Q" name="TableView">
+        <modelElement href="KametiManagementSystem.uml#_zvQqAWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4KK2M1EeyVIZfnfmzq8Q" defaultValue="new TableColumn&lt;KametiParty, String>()" name="Member_Name_Col">
+      <modelElement href="KametiManagementSystem.uml#_z0OpkGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KLGM1EeyVIZfnfmzq8Q" name="Generics">
+        <modelElement href="KametiManagementSystem.uml#_z0VXQGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KLWM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0V-UGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KLmM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_z0V-UWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KL2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4KMGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4KMWM1EeyVIZfnfmzq8Q" name="TableColumn">
+        <modelElement href="KametiManagementSystem.uml#_zvIuMWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4KMmM1EeyVIZfnfmzq8Q" defaultValue="new TableColumn&lt;KametiParty, Integer>()" name="Member_CNIC_Col">
+      <modelElement href="KametiManagementSystem.uml#_z0V-U2M0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KM2M1EeyVIZfnfmzq8Q" name="Generics">
+        <modelElement href="KametiManagementSystem.uml#_z0dTEGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KNGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0d6IGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KNWM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_z0ehMGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KNmM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4KN2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4KOGM1EeyVIZfnfmzq8Q" name="TableColumn">
+        <modelElement href="KametiManagementSystem.uml#_zvIuMWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4KOWM1EeyVIZfnfmzq8Q" name="MemberList">
+      <modelElement href="KametiManagementSystem.uml#_z0ehMmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KOmM1EeyVIZfnfmzq8Q" name="Generics">
+        <modelElement href="KametiManagementSystem.uml#_z0lO4GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KO2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0l18GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KPGM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_z0l18WM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KPWM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-4KPmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4KP2M1EeyVIZfnfmzq8Q" name="ObservableList">
+        <modelElement href="KametiManagementSystem.uml#_zufN8GM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4KQGM1EeyVIZfnfmzq8Q" defaultValue="new TextField()" name="Candidate1">
+      <modelElement href="KametiManagementSystem.uml#_z0mdAWM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KQWM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0nEEGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KQmM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_z0nEEWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KQ2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4KRGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4KRWM1EeyVIZfnfmzq8Q" name="TextField">
+        <modelElement href="KametiManagementSystem.uml#_zvescWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4KRmM1EeyVIZfnfmzq8Q" defaultValue="new Button()" name="ShowMemberButton">
+      <modelElement href="KametiManagementSystem.uml#_z0nrIGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KR2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0nrImM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KSGM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_z0oSMGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KSWM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4KSmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4KS2M1EeyVIZfnfmzq8Q" name="Button">
+        <modelElement href="KametiManagementSystem.uml#_zs7uwWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4KTGM1EeyVIZfnfmzq8Q" defaultValue="new TextArea()" name="MemberInformation">
+      <modelElement href="KametiManagementSystem.uml#_z0oSMmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KTWM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0oSNGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KTmM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_z0o5QGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KT2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4KUGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4KUWM1EeyVIZfnfmzq8Q" name="TextArea">
+        <modelElement href="KametiManagementSystem.uml#_zvX-wWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k-4KUmM1EeyVIZfnfmzq8Q" defaultValue="&quot;&quot;" name="PartyName">
+      <modelElement href="KametiManagementSystem.uml#_z0o5QmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KU2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0pgUGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KVGM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-4KVWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k-4KVmM1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_k-4KV2M1EeyVIZfnfmzq8Q" name="RedExit">
+      <modelElement href="KametiManagementSystem.uml#_zx9_wGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KWGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zx-m0GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KWWM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zx_N4GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KWmM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-4KW2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k-4KXGM1EeyVIZfnfmzq8Q" name="event">
+        <modelElement href="KametiManagementSystem.uml#_zx9_wWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k-4KXWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k-4KXmM1EeyVIZfnfmzq8Q" name="ActionEvent">
+          <modelElement href="KametiManagementSystem.uml#_zumisGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k-4KX2M1EeyVIZfnfmzq8Q" name="YellowMaximize">
+      <modelElement href="KametiManagementSystem.uml#_zx_N4mM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KYGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zx_08GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KYWM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zx_08WM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KYmM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-4KY2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k-4KZGM1EeyVIZfnfmzq8Q" name="event">
+        <modelElement href="KametiManagementSystem.uml#_zx_N42M0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k-4KZWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k-4KZmM1EeyVIZfnfmzq8Q" name="ActionEvent">
+          <modelElement href="KametiManagementSystem.uml#_zumisGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k-4KZ2M1EeyVIZfnfmzq8Q" name="GreenMinimize">
+      <modelElement href="KametiManagementSystem.uml#_zx_082M0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KaGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyAcAGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KaWM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zyAcAWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KamM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-4Ka2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k-4KbGM1EeyVIZfnfmzq8Q" name="event">
+        <modelElement href="KametiManagementSystem.uml#_zx_09GM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k-4KbWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k-4KbmM1EeyVIZfnfmzq8Q" name="ActionEvent">
+          <modelElement href="KametiManagementSystem.uml#_zumisGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k-4Kb2M1EeyVIZfnfmzq8Q" name="GoToOwnerORMemberPage">
+      <modelElement href="KametiManagementSystem.uml#_zyBDEGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KcGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyBqIGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KcWM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zyBqIWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KcmM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-4Kc2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k-4KdGM1EeyVIZfnfmzq8Q" name="event">
+        <modelElement href="KametiManagementSystem.uml#_zyBDEWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k-4KdWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k-4KdmM1EeyVIZfnfmzq8Q" name="ActionEvent">
+          <modelElement href="KametiManagementSystem.uml#_zumisGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k-4Kd2M1EeyVIZfnfmzq8Q" name="GoToSignUpPage">
+      <modelElement href="KametiManagementSystem.uml#_zyCRMGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KeGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyCRMmM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KeWM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zyC4QGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KemM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-4Ke2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k-4KfGM1EeyVIZfnfmzq8Q" name="event">
+        <modelElement href="KametiManagementSystem.uml#_zyCRMWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k-4KfWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k-4KfmM1EeyVIZfnfmzq8Q" name="ActionEvent">
+          <modelElement href="KametiManagementSystem.uml#_zumisGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k-4Kf2M1EeyVIZfnfmzq8Q" name="GoToLoginAsMember">
+      <modelElement href="KametiManagementSystem.uml#_zyDfUGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KgGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyEGYGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KgWM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zyEGYWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KgmM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-4Kg2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k-4KhGM1EeyVIZfnfmzq8Q" name="event">
+        <modelElement href="KametiManagementSystem.uml#_zyDfUWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k-4KhWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k-4KhmM1EeyVIZfnfmzq8Q" name="ActionEvent">
+          <modelElement href="KametiManagementSystem.uml#_zumisGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k-4Kh2M1EeyVIZfnfmzq8Q" name="GoToLoginAsOwner">
+      <modelElement href="KametiManagementSystem.uml#_zyEtcGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KiGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyEtcmM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KiWM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zyFUgGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KimM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-4Ki2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k-4KjGM1EeyVIZfnfmzq8Q" name="event">
+        <modelElement href="KametiManagementSystem.uml#_zyEtcWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k-4KjWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k-4KjmM1EeyVIZfnfmzq8Q" name="ActionEvent">
+          <modelElement href="KametiManagementSystem.uml#_zumisGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k-4Kj2M1EeyVIZfnfmzq8Q" name="GoToOwnerHomePage">
+      <modelElement href="KametiManagementSystem.uml#_zyFUgmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KkGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyF7kWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KkWM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zyGioGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KkmM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-4Kk2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k-4KlGM1EeyVIZfnfmzq8Q" name="event">
+        <modelElement href="KametiManagementSystem.uml#_zyF7kGM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k-4KlWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k-4KlmM1EeyVIZfnfmzq8Q" name="ActionEvent">
+          <modelElement href="KametiManagementSystem.uml#_zumisGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k-4Kl2M1EeyVIZfnfmzq8Q" name="GoToMemberHomePage">
+      <modelElement href="KametiManagementSystem.uml#_zyGiomM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KmGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyHJsGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KmWM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zyHwwGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KmmM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-4Km2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k-4KnGM1EeyVIZfnfmzq8Q" name="event">
+        <modelElement href="KametiManagementSystem.uml#_zyGio2M0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k-4KnWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k-4KnmM1EeyVIZfnfmzq8Q" name="ActionEvent">
+          <modelElement href="KametiManagementSystem.uml#_zumisGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k-4Kn2M1EeyVIZfnfmzq8Q" name="SetProfileButton">
+      <modelElement href="KametiManagementSystem.uml#_zyHwwmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KoGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyIX0GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KoWM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zyI-4GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KomM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-4Ko2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k-4KpGM1EeyVIZfnfmzq8Q" name="event">
+        <modelElement href="KametiManagementSystem.uml#_zyHww2M0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k-4KpWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k-4KpmM1EeyVIZfnfmzq8Q" name="ActionEvent">
+          <modelElement href="KametiManagementSystem.uml#_zumisGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k-4Kp2M1EeyVIZfnfmzq8Q" name="SetMemberButton">
+      <modelElement href="KametiManagementSystem.uml#_zyI-4mM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KqGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyJl8GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KqWM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zyJl8WM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KqmM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-4Kq2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k-4KrGM1EeyVIZfnfmzq8Q" name="event">
+        <modelElement href="KametiManagementSystem.uml#_zyI-42M0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k-4KrWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k-4KrmM1EeyVIZfnfmzq8Q" name="ActionEvent">
+          <modelElement href="KametiManagementSystem.uml#_zumisGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k-4Kr2M1EeyVIZfnfmzq8Q" name="SetShowMemberButton">
+      <modelElement href="KametiManagementSystem.uml#_zyKNAGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4KsGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyK0EGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4KsWM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zyK0EWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4KsmM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-4Ks2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k-4wgGM1EeyVIZfnfmzq8Q" name="event">
+        <modelElement href="KametiManagementSystem.uml#_zyKNAWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k-4wgWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k-4wgmM1EeyVIZfnfmzq8Q" name="ActionEvent">
+          <modelElement href="KametiManagementSystem.uml#_zumisGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k-4wg2M1EeyVIZfnfmzq8Q" name="OwnerTabButtons">
+      <modelElement href="KametiManagementSystem.uml#_zyLbIGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4whGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyMCMGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4whWM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zyMCMWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4whmM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k-4wh2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k-4wiGM1EeyVIZfnfmzq8Q" name="event">
+        <modelElement href="KametiManagementSystem.uml#_zyLbIWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k-4wiWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k-4wimM1EeyVIZfnfmzq8Q" name="ActionEvent">
+          <modelElement href="KametiManagementSystem.uml#_zumisGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k-4wi2M1EeyVIZfnfmzq8Q" name="initialize">
+      <modelElement href="KametiManagementSystem.uml#_zyMpQGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k-4wjGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyNQUGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k-4wjWM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zyN3YGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k-4wjmM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k-4wj2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k-4wkGM1EeyVIZfnfmzq8Q" name="arg0">
+        <modelElement href="KametiManagementSystem.uml#_zyMpQWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k-4wkWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k-4wkmM1EeyVIZfnfmzq8Q" name="URL">
+          <modelElement href="KametiManagementSystem.uml#_zt5_IGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k-4wk2M1EeyVIZfnfmzq8Q" name="arg1">
+        <modelElement href="KametiManagementSystem.uml#_zyMpQmM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k-4wlGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k-4wlWM1EeyVIZfnfmzq8Q" name="ResourceBundle">
+          <modelElement href="KametiManagementSystem.uml#_zuBT4WM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k-4wlmM1EeyVIZfnfmzq8Q" name="populateTable">
+      <modelElement href="KametiManagementSystem.uml#_zyN3YmM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k-4wl2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k-4wmGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k-4wmWM1EeyVIZfnfmzq8Q" name="listM2">
+        <modelElement href="KametiManagementSystem.uml#_zyN3Y2M0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k-4wmmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k-4wm2M1EeyVIZfnfmzq8Q" name="ObservableList">
+          <modelElement href="KametiManagementSystem.uml#_zufN8GM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_k7dCAGM1EeyVIZfnfmzq8Q" name="HibernateDatabase" associationsIn="_k7T4EGM1EeyVIZfnfmzq8Q" associationsOut="_k7T4EGM1EeyVIZfnfmzq8Q _k7VGMGM1EeyVIZfnfmzq8Q _k7ca8GM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_zduOEGM0EeyVIZfnfmzq8Q"/>
+    <visualProperties xmi:id="_k7dCAWM1EeyVIZfnfmzq8Q" position="2287.0,218.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_k7dCAmM1EeyVIZfnfmzq8Q" label="+"/>
+    <attributes xmi:id="_k7dCA2M1EeyVIZfnfmzq8Q" defaultValue="null" name="single_instance" staticAttribute="true">
+      <modelElement href="KametiManagementSystem.uml#_zy2wkGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k7dCBGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zy3XoWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k7dCBWM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k7dCBmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k7dCB2M1EeyVIZfnfmzq8Q" name="HibernateDatabase">
+        <modelElement href="KametiManagementSystem.uml#_zduOEGM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k7dCCGM1EeyVIZfnfmzq8Q" name="ses">
+      <modelElement href="KametiManagementSystem.uml#_zy3XomM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k7dCCWM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zy3-sGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k7dCCmM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k7dCC2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k7dCDGM1EeyVIZfnfmzq8Q" name="Session">
+        <modelElement href="KametiManagementSystem.uml#_zpq_YGM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k7dCDWM1EeyVIZfnfmzq8Q" name="trans">
+      <modelElement href="KametiManagementSystem.uml#_zy3-sWM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k7dCDmM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zy4lwGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k7dCD2M1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k7dCEGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k7dCEWM1EeyVIZfnfmzq8Q" name="Transaction">
+        <modelElement href="KametiManagementSystem.uml#_zqv9cWM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k7dCEmM1EeyVIZfnfmzq8Q" name="session">
+      <modelElement href="KametiManagementSystem.uml#_zy5M0GM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k7dCE2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zy5M0WM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k7dCFGM1EeyVIZfnfmzq8Q" name="MultiDeclaration">
+        <modelElement href="KametiManagementSystem.uml#_z2aa4GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k7dCFWM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k7dCFmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_k7dCF2M1EeyVIZfnfmzq8Q" name="transaction">
+      <modelElement href="KametiManagementSystem.uml#_zy7CAGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k7dCGGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zy7CAWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k7dCGWM1EeyVIZfnfmzq8Q" name="MultiDeclaration">
+        <modelElement href="KametiManagementSystem.uml#_z2bB8GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k7dCGmM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k7dCG2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </attributes>
+    <operations xmi:id="_k7dCImM1EeyVIZfnfmzq8Q" name="getObj" staticOperation="true">
+      <modelElement href="KametiManagementSystem.uml#_zdx4cGM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k7dCI2M1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k7dCJGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_k7dCJWM1EeyVIZfnfmzq8Q">
+        <modelElement href="KametiManagementSystem.uml#_zrDfcGM0EeyVIZfnfmzq8Q"/>
+        <type xmi:id="_k7dCJmM1EeyVIZfnfmzq8Q" name="HibernateDatabase">
+          <modelElement href="KametiManagementSystem.uml#_zduOEGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_k9BvUGM1EeyVIZfnfmzq8Q" name="KametiParty" associationsIn="_k8zF0GM1EeyVIZfnfmzq8Q" associationsOut="_k8CQ0GM1EeyVIZfnfmzq8Q _k807A2M1EeyVIZfnfmzq8Q _k9BIQGM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_zgmi8GM0EeyVIZfnfmzq8Q"/>
+    <visualProperties xmi:id="_k9BvUWM1EeyVIZfnfmzq8Q" position="1410.0,459.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_k9BvUmM1EeyVIZfnfmzq8Q" name="Table">
+      <modelElement href="KametiManagementSystem.uml#_zgyJIGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <stereotypes xmi:id="_k9BvU2M1EeyVIZfnfmzq8Q" name="JPA1StyledElement">
+      <modelElement href="KametiManagementSystem.uml#_zgywMGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <stereotypes xmi:id="_k9BvVGM1EeyVIZfnfmzq8Q" name="TechnicalSupplement">
+      <modelElement href="KametiManagementSystem.uml#_zg0lYGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <visibility xmi:id="_k9BvVWM1EeyVIZfnfmzq8Q" label="+"/>
+    <attributes xmi:id="_k9BvVmM1EeyVIZfnfmzq8Q" defaultValue="new AtomicInteger(0)" name="count" staticAttribute="true">
+      <modelElement href="KametiManagementSystem.uml#_z0rVgGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9BvV2M1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0r8kWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9BvWGM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k9BvWWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k9BvWmM1EeyVIZfnfmzq8Q" name="AtomicInteger">
+        <modelElement href="KametiManagementSystem.uml#_zwO6YGM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k9BvW2M1EeyVIZfnfmzq8Q" name="KametiName">
+      <modelElement href="KametiManagementSystem.uml#_z0r8kmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9BvXGM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0sjoGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9BvXWM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9BvXmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k9BvX2M1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k9BvYGM1EeyVIZfnfmzq8Q" name="Kameti_ID">
+      <modelElement href="KametiManagementSystem.uml#_z0sjoWM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9BvYWM1EeyVIZfnfmzq8Q" name="PrimaryKey">
+        <modelElement href="KametiManagementSystem.uml#_z0sjomM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k9BvYmM1EeyVIZfnfmzq8Q" name="GeneratedValueMapping">
+        <modelElement href="KametiManagementSystem.uml#_z0sjo2M0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9BvY2M1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9BvZGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k9BvZWM1EeyVIZfnfmzq8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k9BvZmM1EeyVIZfnfmzq8Q" name="Owner_cinc">
+      <modelElement href="KametiManagementSystem.uml#_z0tKsGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9BvZ2M1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0txwGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9BvaGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9BvaWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k9BvamM1EeyVIZfnfmzq8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k9Bva2M1EeyVIZfnfmzq8Q" name="Capecity">
+      <modelElement href="KametiManagementSystem.uml#_z0txwWM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9BvbGM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0txwmM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9BvbWM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9BvbmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k9Bvb2M1EeyVIZfnfmzq8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k9BvcGM1EeyVIZfnfmzq8Q" name="Total_Members">
+      <modelElement href="KametiManagementSystem.uml#_z0uY0GM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9BvcWM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0uY0WM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9BvcmM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9Bvc2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k9BvdGM1EeyVIZfnfmzq8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k9BvdWM1EeyVIZfnfmzq8Q" name="installment_per_month">
+      <modelElement href="KametiManagementSystem.uml#_z0uY0mM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9BvdmM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0uY02M0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9Bvd2M1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9BveGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k9BveWM1EeyVIZfnfmzq8Q" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k9BvemM1EeyVIZfnfmzq8Q" name="Total_Balance">
+      <modelElement href="KametiManagementSystem.uml#_z0u_4GM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9Bve2M1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0u_4WM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9BvfGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9BvfWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k9BvfmM1EeyVIZfnfmzq8Q" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k9Bvf2M1EeyVIZfnfmzq8Q" name="vacant_Position">
+      <modelElement href="KametiManagementSystem.uml#_z0u_4mM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9BvgGM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0u_42M0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9BvgWM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9BvgmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k9Bvg2M1EeyVIZfnfmzq8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k9BvhGM1EeyVIZfnfmzq8Q" name="s">
+      <modelElement href="KametiManagementSystem.uml#_z0vm8GM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9BvhWM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0vm8WM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k9BvhmM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_z0wOAGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9Bvh2M1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k9BviGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k9BviWM1EeyVIZfnfmzq8Q" name="Session">
+        <modelElement href="KametiManagementSystem.uml#_zpq_YGM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k9BvimM1EeyVIZfnfmzq8Q" name="Status">
+      <modelElement href="KametiManagementSystem.uml#_z0wOAmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9Bvi2M1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0wOA2M0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9BvjGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9BvjWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k9BvjmM1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k9Bvj2M1EeyVIZfnfmzq8Q" name="dates">
+      <modelElement href="KametiManagementSystem.uml#_z0w1EGM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k9BvkGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9BvkWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k9BvkmM1EeyVIZfnfmzq8Q" name="Dates">
+        <modelElement href="KametiManagementSystem.uml#_zdPF4GM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k9Bvk2M1EeyVIZfnfmzq8Q" name="Members">
+      <modelElement href="KametiManagementSystem.uml#_z0xcIGM0EeyVIZfnfmzq8Q"/>
+      <visibility xmi:id="_k9BvlGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9BvlWM1EeyVIZfnfmzq8Q" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_k9BvlmM1EeyVIZfnfmzq8Q" name="KametiMember">
+        <modelElement href="KametiManagementSystem.uml#_zd2w8GM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k9Bvl2M1EeyVIZfnfmzq8Q" name="session">
+      <modelElement href="KametiManagementSystem.uml#_z0zRUGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9BvmGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_z0zRUWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k9BvmWM1EeyVIZfnfmzq8Q" name="MultiDeclaration">
+        <modelElement href="KametiManagementSystem.uml#_z2odUGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9BvmmM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9Bvm2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </attributes>
+    <operations xmi:id="_k9BvrWM1EeyVIZfnfmzq8Q" name="addTotal_Balance">
+      <modelElement href="KametiManagementSystem.uml#_zg4PwGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9BvrmM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zg420GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9Bvr2M1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9BvsGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k9BvsWM1EeyVIZfnfmzq8Q" name="balance">
+        <modelElement href="KametiManagementSystem.uml#_zg4PwWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9BvsmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9Bvs2M1EeyVIZfnfmzq8Q" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k9BvtGM1EeyVIZfnfmzq8Q" name="withdrawTotal_Balance">
+      <modelElement href="KametiManagementSystem.uml#_zg420WM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9BvtWM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zg5d4WM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9BvtmM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9Bvt2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_k9BvuGM1EeyVIZfnfmzq8Q">
+        <modelElement href="KametiManagementSystem.uml#_zg5d4GM0EeyVIZfnfmzq8Q"/>
+        <type xmi:id="_k9BvuWM1EeyVIZfnfmzq8Q" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_k9BvumM1EeyVIZfnfmzq8Q" name="register_member" staticOperation="true">
+      <modelElement href="KametiManagementSystem.uml#_zg6E8GM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9Bvu2M1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zg7TEGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9BvvGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9BvvWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_k9BvvmM1EeyVIZfnfmzq8Q">
+        <modelElement href="KametiManagementSystem.uml#_zwicYGM0EeyVIZfnfmzq8Q"/>
+        <type xmi:id="_k9Bvv2M1EeyVIZfnfmzq8Q" name="Accounts">
+          <modelElement href="KametiManagementSystem.uml#_zc2EUGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k9BvwGM1EeyVIZfnfmzq8Q" name="cnic">
+        <modelElement href="KametiManagementSystem.uml#_zg6E8WM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9BvwWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9BvwmM1EeyVIZfnfmzq8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k9Bvw2M1EeyVIZfnfmzq8Q" name="fn">
+        <modelElement href="KametiManagementSystem.uml#_zg6sAGM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9BvxGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9BvxWM1EeyVIZfnfmzq8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k9BvxmM1EeyVIZfnfmzq8Q" name="ln">
+        <modelElement href="KametiManagementSystem.uml#_zg6sAWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9Bvx2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9BvyGM1EeyVIZfnfmzq8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k9BvyWM1EeyVIZfnfmzq8Q" name="addr">
+        <modelElement href="KametiManagementSystem.uml#_zg6sAmM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9BvymM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9Bvy2M1EeyVIZfnfmzq8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k9BvzGM1EeyVIZfnfmzq8Q" name="cont">
+        <modelElement href="KametiManagementSystem.uml#_zg6sA2M0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9BvzWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9BvzmM1EeyVIZfnfmzq8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k9Bvz2M1EeyVIZfnfmzq8Q" name="gen">
+        <modelElement href="KametiManagementSystem.uml#_zg6sBGM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9Bv0GM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9Bv0WM1EeyVIZfnfmzq8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k9Bv0mM1EeyVIZfnfmzq8Q" name="FileFlag">
+        <modelElement href="KametiManagementSystem.uml#_zg6sBWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9Bv02M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9Bv1GM1EeyVIZfnfmzq8Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k9CWbmM1EeyVIZfnfmzq8Q" name="ShowParties" staticOperation="true">
+      <modelElement href="KametiManagementSystem.uml#_zwjDcGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9CWb2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zwjDcmM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9CWcGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9CWcWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k9CWcmM1EeyVIZfnfmzq8Q" name="hibr">
+        <modelElement href="KametiManagementSystem.uml#_zwjDcWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9CWc2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9CWdGM1EeyVIZfnfmzq8Q" name="HibernateDatabase">
+          <modelElement href="KametiManagementSystem.uml#_zduOEGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k9CWdWM1EeyVIZfnfmzq8Q" name="getParties" staticOperation="true">
+      <modelElement href="KametiManagementSystem.uml#_zwjqgGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9CWdmM1EeyVIZfnfmzq8Q" name="Generics">
+        <modelElement href="KametiManagementSystem.uml#_zwq_QGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k9CWd2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zwrmUGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9CWeGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9CWeWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_k9CWemM1EeyVIZfnfmzq8Q">
+        <modelElement href="KametiManagementSystem.uml#_zyeWEWM0EeyVIZfnfmzq8Q"/>
+        <type xmi:id="_k9CWe2M1EeyVIZfnfmzq8Q" name="ArrayList">
+          <modelElement href="KametiManagementSystem.uml#_zqgs4GM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k9CWfGM1EeyVIZfnfmzq8Q" name="hibr">
+        <modelElement href="KametiManagementSystem.uml#_zwjqgWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9CWfWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9CWfmM1EeyVIZfnfmzq8Q" name="HibernateDatabase">
+          <modelElement href="KametiManagementSystem.uml#_zduOEGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k9CWf2M1EeyVIZfnfmzq8Q" name="cnic">
+        <modelElement href="KametiManagementSystem.uml#_zwjqgmM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9CWgGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9CWgWM1EeyVIZfnfmzq8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k9CWgmM1EeyVIZfnfmzq8Q" name="getPartyDetails" staticOperation="true">
+      <modelElement href="KametiManagementSystem.uml#_zwrmUWM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9CWg2M1EeyVIZfnfmzq8Q" name="Generics">
+        <modelElement href="KametiManagementSystem.uml#_zwy7EGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k9CWhGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zwziIGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9CWhWM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9CWhmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_k9CWh2M1EeyVIZfnfmzq8Q">
+        <modelElement href="KametiManagementSystem.uml#_zye9IGM0EeyVIZfnfmzq8Q"/>
+        <type xmi:id="_k9CWiGM1EeyVIZfnfmzq8Q" name="ArrayList">
+          <modelElement href="KametiManagementSystem.uml#_zqgs4GM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k9CWiWM1EeyVIZfnfmzq8Q" name="hibr">
+        <modelElement href="KametiManagementSystem.uml#_zwrmUmM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9CWimM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9CWi2M1EeyVIZfnfmzq8Q" name="HibernateDatabase">
+          <modelElement href="KametiManagementSystem.uml#_zduOEGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k9CWjGM1EeyVIZfnfmzq8Q" name="kid">
+        <modelElement href="KametiManagementSystem.uml#_zwsNYGM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9CWjWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9CWjmM1EeyVIZfnfmzq8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k9CWj2M1EeyVIZfnfmzq8Q" name="getMembersDetails" staticOperation="true">
+      <modelElement href="KametiManagementSystem.uml#_zw0JMGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9CWkGM1EeyVIZfnfmzq8Q" name="Generics">
+        <modelElement href="KametiManagementSystem.uml#_zw7d8GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k9CWkWM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zw8FAGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9CWkmM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9CWk2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_k9CWlGM1EeyVIZfnfmzq8Q">
+        <modelElement href="KametiManagementSystem.uml#_zye9IWM0EeyVIZfnfmzq8Q"/>
+        <type xmi:id="_k9CWlWM1EeyVIZfnfmzq8Q" name="ArrayList">
+          <modelElement href="KametiManagementSystem.uml#_zqgs4GM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k9CWlmM1EeyVIZfnfmzq8Q" name="hibr">
+        <modelElement href="KametiManagementSystem.uml#_zw0JMWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9CWl2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9CWmGM1EeyVIZfnfmzq8Q" name="HibernateDatabase">
+          <modelElement href="KametiManagementSystem.uml#_zduOEGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k9CWmWM1EeyVIZfnfmzq8Q" name="kid">
+        <modelElement href="KametiManagementSystem.uml#_zw0JMmM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9CWmmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9CWm2M1EeyVIZfnfmzq8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k9CWnGM1EeyVIZfnfmzq8Q" name="ShowPartiesofMember" staticOperation="true">
+      <modelElement href="KametiManagementSystem.uml#_zw8sEGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9CWnWM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zw9TIGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9CWnmM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k9CWn2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k9CWoGM1EeyVIZfnfmzq8Q" name="hibr">
+        <modelElement href="KametiManagementSystem.uml#_zw8sEWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9CWoWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9CWomM1EeyVIZfnfmzq8Q" name="HibernateDatabase">
+          <modelElement href="KametiManagementSystem.uml#_zduOEGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k9CWo2M1EeyVIZfnfmzq8Q" name="cnic">
+        <modelElement href="KametiManagementSystem.uml#_zw8sEmM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9CWpGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9CWpWM1EeyVIZfnfmzq8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k9CWpmM1EeyVIZfnfmzq8Q" name="getParty" staticOperation="true">
+      <modelElement href="KametiManagementSystem.uml#_zydH8GM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9CWp2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyeWEGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9CWqGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9CWqWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_k9CWqmM1EeyVIZfnfmzq8Q">
+        <modelElement href="KametiManagementSystem.uml#_zydvAWM0EeyVIZfnfmzq8Q"/>
+        <type xmi:id="_k9CWq2M1EeyVIZfnfmzq8Q" name="KametiParty">
+          <modelElement href="KametiManagementSystem.uml#_zgmi8GM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k9CWrGM1EeyVIZfnfmzq8Q" name="session">
+        <modelElement href="KametiManagementSystem.uml#_zydH8WM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9CWrWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9CWrmM1EeyVIZfnfmzq8Q" name="Session">
+          <modelElement href="KametiManagementSystem.uml#_zpq_YGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k9CWr2M1EeyVIZfnfmzq8Q" name="id">
+        <modelElement href="KametiManagementSystem.uml#_zydvAGM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9CWsGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9CWsWM1EeyVIZfnfmzq8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_k6-g4GM1EeyVIZfnfmzq8Q" name="Dates" associationsOut="_k8zF0GM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_zdPF4GM0EeyVIZfnfmzq8Q"/>
+    <visualProperties xmi:id="_k6-g4WM1EeyVIZfnfmzq8Q" position="1496.0,116.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_k6-g4mM1EeyVIZfnfmzq8Q" name="PersistentPart">
+      <modelElement href="KametiManagementSystem.uml#_zdfkkGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <stereotypes xmi:id="_k6-g42M1EeyVIZfnfmzq8Q" name="JPA1StyledElement">
+      <modelElement href="KametiManagementSystem.uml#_zdgysGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <visibility xmi:id="_k6-g5GM1EeyVIZfnfmzq8Q" label="+"/>
+    <attributes xmi:id="_k6-g5WM1EeyVIZfnfmzq8Q" name="Creation_Date">
+      <modelElement href="KametiManagementSystem.uml#_zyzGMGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k6-g5mM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyztQGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k6-g52M1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k6-g6GM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k6-g6WM1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k6-g6mM1EeyVIZfnfmzq8Q" name="Deadline">
+      <modelElement href="KametiManagementSystem.uml#_zy0UUGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k6-g62M1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zy0UUWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k6-g7GM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k6-g7WM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k6-g7mM1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k6-g72M1EeyVIZfnfmzq8Q" name="Deposite_Reminder_date">
+      <modelElement href="KametiManagementSystem.uml#_zy0UUmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k6-g8GM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zy07YGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k6-g8WM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k6-g8mM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k6-g82M1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k6-g9GM1EeyVIZfnfmzq8Q" name="Withdraw_Reminder_date">
+      <modelElement href="KametiManagementSystem.uml#_zy07YWM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k6-g9WM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zy07YmM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k6-g9mM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k6-g92M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k6-g-GM1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k6-g-WM1EeyVIZfnfmzq8Q" name="Draw_Date">
+      <modelElement href="KametiManagementSystem.uml#_zy1icGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k6-g-mM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zy2JgGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k6-g-2M1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k6-g_GM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k6-g_WM1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k6-g_mM1EeyVIZfnfmzq8Q" name="Deposite_Deadline">
+      <modelElement href="KametiManagementSystem.uml#_zy2JgWM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k6-g_2M1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zy2JgmM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k6-hAGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k6-hAWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k6-hAmM1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_k6-hI2M1EeyVIZfnfmzq8Q" name="ShowDates">
+      <modelElement href="KametiManagementSystem.uml#_zdmSQGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k6-hJGM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zdm5UGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k6-hJWM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k6-hJmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_k8EGAGM1EeyVIZfnfmzq8Q" name="KametiMember" associationsIn="_k8CQ0GM1EeyVIZfnfmzq8Q" associationsOut="_k734wGM1EeyVIZfnfmzq8Q _k8De8GM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_zd2w8GM0EeyVIZfnfmzq8Q"/>
+    <visualProperties xmi:id="_k8EGAWM1EeyVIZfnfmzq8Q" position="207.0,582.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_k8EGAmM1EeyVIZfnfmzq8Q" name="Table">
+      <modelElement href="KametiManagementSystem.uml#_zeEMUGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <stereotypes xmi:id="_k8EGA2M1EeyVIZfnfmzq8Q" name="JPA1StyledElement">
+      <modelElement href="KametiManagementSystem.uml#_zeFacGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <stereotypes xmi:id="_k8EGBGM1EeyVIZfnfmzq8Q" name="TechnicalSupplement">
+      <modelElement href="KametiManagementSystem.uml#_zeHPoGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <visibility xmi:id="_k8EGBWM1EeyVIZfnfmzq8Q" label="+"/>
+    <attributes xmi:id="_k8EGBmM1EeyVIZfnfmzq8Q" name="Serial_ID">
+      <modelElement href="KametiManagementSystem.uml#_zy83MGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k8EGB2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zy9eQGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k8EGCGM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zy-FUGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k8EGCWM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k8EGCmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k8EGC2M1EeyVIZfnfmzq8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k8EGDGM1EeyVIZfnfmzq8Q" name="Member_CNIC">
+      <modelElement href="KametiManagementSystem.uml#_zy-sYGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k8EGDWM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zy_TcGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k8EGDmM1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k8EGD2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k8EGEGM1EeyVIZfnfmzq8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k8EGEWM1EeyVIZfnfmzq8Q" name="R_Member">
+      <modelElement href="KametiManagementSystem.uml#_zy_TcWM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k8EGEmM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zy_6gGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k8EGE2M1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzBIoWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k8EGFGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k8EGFWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k8EGFmM1EeyVIZfnfmzq8Q" name="Accounts">
+        <modelElement href="KametiManagementSystem.uml#_zc2EUGM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k8EGF2M1EeyVIZfnfmzq8Q" name="KametiName">
+      <modelElement href="KametiManagementSystem.uml#_zzBvsGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k8EGGGM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzBvsWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k8EGGWM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k8EGGmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k8EGG2M1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k8EGHGM1EeyVIZfnfmzq8Q" name="Kameti_ID">
+      <modelElement href="KametiManagementSystem.uml#_zzCWwGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k8EGHWM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzCWwWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k8EGHmM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k8EGH2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k8EGIGM1EeyVIZfnfmzq8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k8EGIWM1EeyVIZfnfmzq8Q" defaultValue="&quot;Aqeel abid sahil umer&quot;" name="Agreement">
+      <modelElement href="KametiManagementSystem.uml#_zzCWwmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k8EGImM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzC90WM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k8EGI2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k8EGJGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k8EGJWM1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k8EGJmM1EeyVIZfnfmzq8Q" name="payments">
+      <modelElement href="KametiManagementSystem.uml#_zzDk4GM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k8EGJ2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzEL8GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k8EGKGM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zzEL8WM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k8EGKWM1EeyVIZfnfmzq8Q" name="MultiDeclaration">
+        <modelElement href="KametiManagementSystem.uml#_z2eFQGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k8EGKmM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k8EGK2M1EeyVIZfnfmzq8Q" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_k8EGLGM1EeyVIZfnfmzq8Q" name="Transections">
+        <modelElement href="KametiManagementSystem.uml#_ze4EoGM0EeyVIZfnfmzq8Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k8EGLWM1EeyVIZfnfmzq8Q" name="contract">
+      <modelElement href="KametiManagementSystem.uml#_zzEzAWM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k8EGLmM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzEzAmM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k8EGL2M1EeyVIZfnfmzq8Q" name="MultiDeclaration">
+        <modelElement href="KametiManagementSystem.uml#_z2deMGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k8EGMGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k8EGMWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </attributes>
+    <attributes xmi:id="_k8EGMmM1EeyVIZfnfmzq8Q" name="member_cnic">
+      <modelElement href="KametiManagementSystem.uml#_zzIdYGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k8EGM2M1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzJEcGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k8EGNGM1EeyVIZfnfmzq8Q" name="MultiDeclaration">
+        <modelElement href="KametiManagementSystem.uml#_z2esUGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k8EGNWM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k8EGNmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </attributes>
+    <operations xmi:id="_k8EGUWM1EeyVIZfnfmzq8Q" name="getAccount" staticOperation="true">
+      <modelElement href="KametiManagementSystem.uml#_zrhZgWM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k8EGUmM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zrinoGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k8EGU2M1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k8EGVGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_k8EGVWM1EeyVIZfnfmzq8Q">
+        <modelElement href="KametiManagementSystem.uml#_zriAkmM0EeyVIZfnfmzq8Q"/>
+        <type xmi:id="_k8EGVmM1EeyVIZfnfmzq8Q" name="KametiMember">
+          <modelElement href="KametiManagementSystem.uml#_zd2w8GM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k8EGV2M1EeyVIZfnfmzq8Q" name="hibr">
+        <modelElement href="KametiManagementSystem.uml#_zriAkGM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k8EGWGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k8EGWWM1EeyVIZfnfmzq8Q" name="HibernateDatabase">
+          <modelElement href="KametiManagementSystem.uml#_zduOEGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k8EGWmM1EeyVIZfnfmzq8Q" name="cnic">
+        <modelElement href="KametiManagementSystem.uml#_zriAkWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k8EGW2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k8EGXGM1EeyVIZfnfmzq8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k8EGXWM1EeyVIZfnfmzq8Q" name="ShowPartiesofMember" staticOperation="true">
+      <modelElement href="KametiManagementSystem.uml#_zrjOsGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k8EGXmM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zrjOs2M0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k8EGX2M1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k8EGYGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k8EGYWM1EeyVIZfnfmzq8Q" name="hibr">
+        <modelElement href="KametiManagementSystem.uml#_zrjOsWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k8EGYmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k8EGY2M1EeyVIZfnfmzq8Q" name="HibernateDatabase">
+          <modelElement href="KametiManagementSystem.uml#_zduOEGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k8EGZGM1EeyVIZfnfmzq8Q" name="cnic">
+        <modelElement href="KametiManagementSystem.uml#_zrjOsmM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k8EGZWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k8EGZmM1EeyVIZfnfmzq8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k8EGZ2M1EeyVIZfnfmzq8Q" name="Deposite">
+      <modelElement href="KametiManagementSystem.uml#_zxWUsGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k8EGaGM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zxW7wmM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k8EGaWM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k8EGamM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k8EGa2M1EeyVIZfnfmzq8Q" name="hibr">
+        <modelElement href="KametiManagementSystem.uml#_zxWUsWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k8EGbGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k8EGbWM1EeyVIZfnfmzq8Q" name="HibernateDatabase">
+          <modelElement href="KametiManagementSystem.uml#_zduOEGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k8EGbmM1EeyVIZfnfmzq8Q" name="amount">
+        <modelElement href="KametiManagementSystem.uml#_zxWUsmM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k8EGb2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k8EGcGM1EeyVIZfnfmzq8Q" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k8EGcWM1EeyVIZfnfmzq8Q" name="cnic">
+        <modelElement href="KametiManagementSystem.uml#_zxW7wGM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k8EGcmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k8EGc2M1EeyVIZfnfmzq8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k8EGdGM1EeyVIZfnfmzq8Q" name="trans">
+        <modelElement href="KametiManagementSystem.uml#_zxW7wWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k8EGdWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k8EGdmM1EeyVIZfnfmzq8Q" name="Transaction">
+          <modelElement href="KametiManagementSystem.uml#_zqv9cWM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k8EGd2M1EeyVIZfnfmzq8Q" name="Withdraw">
+      <modelElement href="KametiManagementSystem.uml#_zxXi0GM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k8EGeGM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zxYJ4GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k8EGeWM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k8EGemM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_k8EGe2M1EeyVIZfnfmzq8Q">
+        <modelElement href="KametiManagementSystem.uml#_zxXi1GM0EeyVIZfnfmzq8Q"/>
+        <type xmi:id="_k8EGfGM1EeyVIZfnfmzq8Q" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k8EGfWM1EeyVIZfnfmzq8Q" name="hibr">
+        <modelElement href="KametiManagementSystem.uml#_zxXi0WM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k8EGfmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k8EGf2M1EeyVIZfnfmzq8Q" name="HibernateDatabase">
+          <modelElement href="KametiManagementSystem.uml#_zduOEGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k8EGgGM1EeyVIZfnfmzq8Q" name="cnic">
+        <modelElement href="KametiManagementSystem.uml#_zxXi0mM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k8EGgWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k8EGgmM1EeyVIZfnfmzq8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k8EGg2M1EeyVIZfnfmzq8Q" name="trans">
+        <modelElement href="KametiManagementSystem.uml#_zxXi02M0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k8EGhGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k8EGhWM1EeyVIZfnfmzq8Q" name="Transaction">
+          <modelElement href="KametiManagementSystem.uml#_zqv9cWM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k8EGhmM1EeyVIZfnfmzq8Q" name="JoinParty" staticOperation="true">
+      <modelElement href="KametiManagementSystem.uml#_zxYJ4WM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k8EGh2M1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zxYw9GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k8EGiGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k8EGiWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k8EGimM1EeyVIZfnfmzq8Q" name="hibr">
+        <modelElement href="KametiManagementSystem.uml#_zxYJ4mM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k8EGi2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k8EGjGM1EeyVIZfnfmzq8Q" name="HibernateDatabase">
+          <modelElement href="KametiManagementSystem.uml#_zduOEGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k8EGjWM1EeyVIZfnfmzq8Q" name="p">
+        <modelElement href="KametiManagementSystem.uml#_zxYJ42M0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k8EGjmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k8EGj2M1EeyVIZfnfmzq8Q" name="KametiParty">
+          <modelElement href="KametiManagementSystem.uml#_zgmi8GM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k8EGkGM1EeyVIZfnfmzq8Q" name="pid">
+        <modelElement href="KametiManagementSystem.uml#_zxYw8GM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k8EGkWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k8EGkmM1EeyVIZfnfmzq8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k8EGk2M1EeyVIZfnfmzq8Q" name="cnic">
+        <modelElement href="KametiManagementSystem.uml#_zxYw8WM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k8EGlGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k8EGlWM1EeyVIZfnfmzq8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k8EGlmM1EeyVIZfnfmzq8Q" name="acc">
+        <modelElement href="KametiManagementSystem.uml#_zxYw8mM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k8EGl2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k8EGmGM1EeyVIZfnfmzq8Q" name="Accounts">
+          <modelElement href="KametiManagementSystem.uml#_zc2EUGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k8EGmWM1EeyVIZfnfmzq8Q" name="trans">
+        <modelElement href="KametiManagementSystem.uml#_zxYw82M0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k8EGmmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k8EGm2M1EeyVIZfnfmzq8Q" name="Transaction">
+          <modelElement href="KametiManagementSystem.uml#_zqv9cWM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_k9qogGM1EeyVIZfnfmzq8Q" name="Transections" associationsIn="_k8De8GM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_ze4EoGM0EeyVIZfnfmzq8Q"/>
+    <visualProperties xmi:id="_k9qogWM1EeyVIZfnfmzq8Q" position="166.0,170.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_k9qogmM1EeyVIZfnfmzq8Q" name="Table">
+      <modelElement href="KametiManagementSystem.uml#_zfDDwGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <stereotypes xmi:id="_k9qog2M1EeyVIZfnfmzq8Q" name="JPA1StyledElement">
+      <modelElement href="KametiManagementSystem.uml#_zfDq0GM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <visibility xmi:id="_k9qohGM1EeyVIZfnfmzq8Q" label="+"/>
+    <attributes xmi:id="_k9qohWM1EeyVIZfnfmzq8Q" name="Trasection_ID">
+      <modelElement href="KametiManagementSystem.uml#_zzV4wGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9qohmM1EeyVIZfnfmzq8Q" name="PrimaryKey">
+        <modelElement href="KametiManagementSystem.uml#_zzV4wWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k9qoh2M1EeyVIZfnfmzq8Q" name="GeneratedValueMapping">
+        <modelElement href="KametiManagementSystem.uml#_zzWf0GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9qoiGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9qoiWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k9qoimM1EeyVIZfnfmzq8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k9qoi2M1EeyVIZfnfmzq8Q" name="Trasection_Date">
+      <modelElement href="KametiManagementSystem.uml#_zzXG4GM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9qojGM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzXt8GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9qojWM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9qojmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k9qoj2M1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k9qokGM1EeyVIZfnfmzq8Q" name="Amount">
+      <modelElement href="KametiManagementSystem.uml#_zzXt8WM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9qokWM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzXt8mM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9qokmM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9qok2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k9qolGM1EeyVIZfnfmzq8Q" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k9qolWM1EeyVIZfnfmzq8Q" name="Payment_Method">
+      <modelElement href="KametiManagementSystem.uml#_zzXt82M0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9qolmM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzYVAGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9qol2M1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9qomGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k9qomWM1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k9qommM1EeyVIZfnfmzq8Q" name="Payment_type">
+      <modelElement href="KametiManagementSystem.uml#_zzYVAWM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k9qom2M1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zzYVAmM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9qonGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9qonWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k9qonmM1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_k9qon2M1EeyVIZfnfmzq8Q" name="Transections">
+      <modelElement href="KametiManagementSystem.uml#_zfE48GM0EeyVIZfnfmzq8Q"/>
+      <keywords xmi:id="_k9qooGM1EeyVIZfnfmzq8Q" keyword="create"/>
+      <stereotypes xmi:id="_k9qooWM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zfFgA2M0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9qoomM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9qoo2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_k9qopGM1EeyVIZfnfmzq8Q">
+        <modelElement href="KametiManagementSystem.uml#_zfFgAmM0EeyVIZfnfmzq8Q"/>
+        <type xmi:id="_k9qopWM1EeyVIZfnfmzq8Q" name="Transections">
+          <modelElement href="KametiManagementSystem.uml#_ze4EoGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_k9qopmM1EeyVIZfnfmzq8Q" name="Transections">
+      <modelElement href="KametiManagementSystem.uml#_zfGHEGM0EeyVIZfnfmzq8Q"/>
+      <keywords xmi:id="_k9qop2M1EeyVIZfnfmzq8Q" keyword="create"/>
+      <stereotypes xmi:id="_k9qoqGM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zfHVMGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k9qoqWM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k9qoqmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_k9qoq2M1EeyVIZfnfmzq8Q">
+        <modelElement href="KametiManagementSystem.uml#_zfGuJWM0EeyVIZfnfmzq8Q"/>
+        <type xmi:id="_k9qorGM1EeyVIZfnfmzq8Q" name="Transections">
+          <modelElement href="KametiManagementSystem.uml#_ze4EoGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k9qorWM1EeyVIZfnfmzq8Q" name="trasection_Date">
+        <modelElement href="KametiManagementSystem.uml#_zfGHEWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9qormM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9qor2M1EeyVIZfnfmzq8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k9qosGM1EeyVIZfnfmzq8Q" name="amount">
+        <modelElement href="KametiManagementSystem.uml#_zfGuIGM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9qosWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9qosmM1EeyVIZfnfmzq8Q" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k9qos2M1EeyVIZfnfmzq8Q" name="payment_Method">
+        <modelElement href="KametiManagementSystem.uml#_zfGuIWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9qotGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9qotWM1EeyVIZfnfmzq8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k9qotmM1EeyVIZfnfmzq8Q" name="pay_type">
+        <modelElement href="KametiManagementSystem.uml#_zfGuImM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k9qot2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k9qouGM1EeyVIZfnfmzq8Q" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_k5G4oGM1EeyVIZfnfmzq8Q" name="Accounts" associationsIn="_k734wGM1EeyVIZfnfmzq8Q">
+    <modelElement href="KametiManagementSystem.uml#_zc2EUGM0EeyVIZfnfmzq8Q"/>
+    <visualProperties xmi:id="_k5G4oWM1EeyVIZfnfmzq8Q" position="509.0,1001.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_k5G4omM1EeyVIZfnfmzq8Q" name="JPA1StyledElement">
+      <modelElement href="KametiManagementSystem.uml#_zc8yAGM0EeyVIZfnfmzq8Q"/>
+    </stereotypes>
+    <visibility xmi:id="_k5G4o2M1EeyVIZfnfmzq8Q" label="+"/>
+    <attributes xmi:id="_k5G4pGM1EeyVIZfnfmzq8Q" name="id">
+      <modelElement href="KametiManagementSystem.uml#_zyqjUGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k5G4pWM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyrKYGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k5G4pmM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zyrxcGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k5G4p2M1EeyVIZfnfmzq8Q" label="-"/>
+      <cardinality xmi:id="_k5G4qGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k5G4qWM1EeyVIZfnfmzq8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k5G4qmM1EeyVIZfnfmzq8Q" name="FName">
+      <modelElement href="KametiManagementSystem.uml#_zys_kGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k5G4q2M1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zys_kWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k5G4rGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k5G4rWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k5G4rmM1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k5G4r2M1EeyVIZfnfmzq8Q" name="LName">
+      <modelElement href="KametiManagementSystem.uml#_zys_kmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k5G4sGM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zytmoGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k5G4sWM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k5G4smM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k5G4s2M1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k5G4tGM1EeyVIZfnfmzq8Q" name="Address">
+      <modelElement href="KametiManagementSystem.uml#_zytmoWM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k5G4tWM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zytmomM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k5G4tmM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k5G4t2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k5G4uGM1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k5G4uWM1EeyVIZfnfmzq8Q" name="Contact">
+      <modelElement href="KametiManagementSystem.uml#_zyuNsGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k5G4umM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyuNsWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k5G4u2M1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k5G4vGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k5G4vWM1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k5G4vmM1EeyVIZfnfmzq8Q" name="Gender">
+      <modelElement href="KametiManagementSystem.uml#_zyuNsmM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k5G4v2M1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyu0wGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k5G4wGM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k5G4wWM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k5G4wmM1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k5G4w2M1EeyVIZfnfmzq8Q" defaultValue="false" name="agreementSign">
+      <modelElement href="KametiManagementSystem.uml#_zyu0wWM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k5G4xGM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyvb0GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k5G4xWM1EeyVIZfnfmzq8Q" name="Annotations">
+        <modelElement href="KametiManagementSystem.uml#_zyvb0WM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k5G4xmM1EeyVIZfnfmzq8Q" label="~"/>
+      <cardinality xmi:id="_k5G4x2M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k5G4yGM1EeyVIZfnfmzq8Q" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k5G4yWM1EeyVIZfnfmzq8Q" name="Registration_ID">
+      <modelElement href="KametiManagementSystem.uml#_zyvb02M0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k5G4ymM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zywC4GM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k5G4y2M1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k5G4zGM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k5G4zWM1EeyVIZfnfmzq8Q" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k5G4zmM1EeyVIZfnfmzq8Q" name="Registration_Date">
+      <modelElement href="KametiManagementSystem.uml#_zywp8GM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k5G4z2M1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zywp8WM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k5G40GM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k5G40WM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <type xmi:id="_k5G40mM1EeyVIZfnfmzq8Q" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_k5G402M1EeyVIZfnfmzq8Q" name="cNIC">
+      <modelElement href="KametiManagementSystem.uml#_zyxRAGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k5G41GM1EeyVIZfnfmzq8Q" name="LegacyStyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zyxRAWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_k5HfsGM1EeyVIZfnfmzq8Q" name="MultiDeclaration">
+        <modelElement href="KametiManagementSystem.uml#_z2X-oGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k5HfsWM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k5HfsmM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+    </attributes>
+    <operations xmi:id="_k5Hf3GM1EeyVIZfnfmzq8Q" name="isAgreementSign">
+      <modelElement href="KametiManagementSystem.uml#_zdGjAGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k5Hf3WM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zdHKEGM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k5Hf3mM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k5Hf32M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_k5Hf4GM1EeyVIZfnfmzq8Q">
+        <modelElement href="KametiManagementSystem.uml#_zdGjAWM0EeyVIZfnfmzq8Q"/>
+        <type xmi:id="_k5Hf4WM1EeyVIZfnfmzq8Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_k5Hf4mM1EeyVIZfnfmzq8Q" name="setAgreementSign">
+      <modelElement href="KametiManagementSystem.uml#_zdHKEWM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k5Hf42M1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zdHxIWM0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k5Hf5GM1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k5Hf5WM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <parameters xmi:id="_k5Hf5mM1EeyVIZfnfmzq8Q" name="agreementSign">
+        <modelElement href="KametiManagementSystem.uml#_zdHxIGM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k5Hf52M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k5Hf6GM1EeyVIZfnfmzq8Q" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_k5Hf6WM1EeyVIZfnfmzq8Q" name="getAccount" staticOperation="true">
+      <modelElement href="KametiManagementSystem.uml#_zxMjsGM0EeyVIZfnfmzq8Q"/>
+      <stereotypes xmi:id="_k5Hf6mM1EeyVIZfnfmzq8Q" name="StyledElement">
+        <modelElement href="KametiManagementSystem.uml#_zxNKw2M0EeyVIZfnfmzq8Q"/>
+      </stereotypes>
+      <visibility xmi:id="_k5Hf62M1EeyVIZfnfmzq8Q" label="+"/>
+      <cardinality xmi:id="_k5Hf7GM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_k5Hf7WM1EeyVIZfnfmzq8Q">
+        <modelElement href="KametiManagementSystem.uml#_zxNKwmM0EeyVIZfnfmzq8Q"/>
+        <type xmi:id="_k5Hf7mM1EeyVIZfnfmzq8Q" name="Accounts">
+          <modelElement href="KametiManagementSystem.uml#_zc2EUGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_k5Hf72M1EeyVIZfnfmzq8Q" name="session">
+        <modelElement href="KametiManagementSystem.uml#_zxNKwGM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k5Hf8GM1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k5Hf8WM1EeyVIZfnfmzq8Q" name="Session">
+          <modelElement href="KametiManagementSystem.uml#_zpq_YGM0EeyVIZfnfmzq8Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_k5Hf8mM1EeyVIZfnfmzq8Q" name="cnic">
+        <modelElement href="KametiManagementSystem.uml#_zxNKwWM0EeyVIZfnfmzq8Q"/>
+        <cardinality xmi:id="_k5Hf82M1EeyVIZfnfmzq8Q" label="1" max="1" min="1"/>
+        <type xmi:id="_k5Hf9GM1EeyVIZfnfmzq8Q" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
