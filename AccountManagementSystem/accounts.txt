@@ -1,0 +1,4 @@
+ACC_ID-101,Name-Aqeel,Contect-03016666660,Address-Islambad,ACC_Type-saving,ACC_Balance-4.9259632294607186E18,ACC_CreatedAt-10/01/2021 at 06:01 PM PKT,LastTransection-10/01/2021 at 06:01 PM PKT,Deposited-500.0,Transection-fee-0.0,Interest-0.0
+ACC_ID-104,Name-Aqeel,Contect-03016666660,Address-Islambad,ACC_Type-saving,ACC_Balance-500.0,ACC_CreatedAt-10/01/2021 at 06:01 PM PKT,LastTransection-10/01/2021 at 06:01 PM PKT,Deposied 10050.0,Transection-fee-0.0,Interest-0.0
+ACC_ID-105,Name-dawood,Contect-03016666600,Address-Islambad,ACC_Type-saving,ACC_Balance-21000.0,ACC_CreatedAt-10/01/2021 at 06:46 PM PKT,LastTransection-10/01/2021 at 06:46 PM PKT,tex-Deposited 500,Transection-fee-0.0,Interest-0.0
+ACC_ID-103,Name-Afzal,Contect-03016666661,Address-Islambad,ACC_Type-checking,ACC_Balance-4500.0,ACC_CreatedAt-10/15/2021 at 11:33 AM PKT,LastTransection-10/15/2021 at 11:33 AM PKT,WithDrawn-500.0,Transection-fee-0.0,Interest-0.0
